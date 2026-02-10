@@ -5,6 +5,7 @@ import SkillSection from "@/components/SkillCard";
 import Navbar from "@/components/Navbar";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
+import TicTacToe from "@/components/TicTacToe";
 import { 
   Github, 
   Linkedin, 
@@ -372,6 +373,22 @@ export default function Home() {
           <p>Prefer email? Langsung saja ke <a href="mailto:rizalldnt@gmail.com" className="text-blue-400 hover:underline">rizalldnt@gmail.com</a></p>
         </div>
 
+      </section>
+
+      <section className="py-20 px-4">
+        <div className="text-center mb-10">
+          <span className="text-blue-400 text-sm font-semibold uppercase tracking-wider">
+            Fun Zone
+          </span>
+          <h2 className="text-3xl font-bold text-white mt-2">
+            Can You Beat My AI?
+          </h2>
+          <p className="text-slate-400 text-sm mt-2">
+            Sambil istirahat, coba kalahkan algoritma Minimax ini. (Spoiler: Susah lho!)
+          </p>
+        </div>
+        
+        <TicTacToe />
       </section>
       
       <footer className="border-t border-slate-900/50 py-8 text-center text-slate-600 text-sm">
