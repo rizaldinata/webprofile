@@ -80,15 +80,15 @@ const myProjects = [
 const socialLinks = [
   { 
     name: "GitHub", 
-    username: "@rizalldnt",
+    username: "@rizaldinata",
     icon: <Github size={24} />, 
-    url: "https://github.com/rizalldnt",
+    url: "https://github.com/rizaldinata",
     color: "hover:border-white/50 hover:bg-slate-800",
     btnColor: "bg-slate-800"
   },
   { 
     name: "LinkedIn", 
-    username: "Rizal Dinata",
+    username: "in/rizaldinata",
     icon: <Linkedin size={24} />, 
     url: "https://linkedin.com/in/rizaldinata",
     color: "hover:border-blue-500/50 hover:bg-blue-900/20",
@@ -96,9 +96,9 @@ const socialLinks = [
   },
   { 
     name: "Instagram", 
-    username: "@rizaldnt",
+    username: "@rijuldnt_",
     icon: <Instagram size={24} />, 
-    url: "https://instagram.com/rizaldnt",
+    url: "https://instagram.com/rijuldnt_",
     color: "hover:border-pink-500/50 hover:bg-pink-900/20",
     btnColor: "bg-pink-600"
   },
@@ -121,18 +121,18 @@ const roles = [
 
 const educationData = [
   {
-    degree: "S1 Teknik Informatika", 
-    school: "Universitas Negeri Malang", 
-    year: "2021 - Present",
+    degree: "D3 Teknik Informatika", 
+    school: "Politeknik Elektronika Negeri Surabaya", 
+    year: "2023 - Present",
     desc: "Fokus pada Software Engineering dan Mobile Development. Aktif dalam komunitas coding kampus dan asisten laboratorium.",
-    gpa: "IPK: 3.85" 
+    gpa: "IPK: 3.73 / 4.00" 
   },
   {
-    degree: "SMA Jurusan IPA",
-    school: "SMA Negeri 1 Kota Anda",
-    year: "2018 - 2021",
+    degree: "SMA Jurusan MIPA",
+    school: "SMA Negeri 1 Puri Mjokerto",
+    year: "2020 - 2023",
     desc: "Memiliki minat kuat dalam matematika dan logika pemrograman dasar.",
-  }
+  },
 ];
 
 export default function Home() {
