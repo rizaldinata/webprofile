@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     description: "Fullstack Developer spesialis Web & Mobile",
     type: "website",
   },
+  icons: {
+    icon: "/favicon.svg",
+  }
 };
 
 export default function RootLayout({
