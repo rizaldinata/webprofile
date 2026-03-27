@@ -56,11 +56,11 @@ const myProjects = [
     description: "A comprehensive academic platform featuring a mobile app for students and lecturers to manage course registration (KRS/FRS), with approval/rejection functionality for lecturers, and a web-based admin dashboard for managing master data, course offerings, and monitoring transaction records."
   },
   {
-    title: "BlueCampus - Academic Information System",
+    title: "Outpatient Information System",
     client: "Team Project",
     year: "2024",
     tech: ["Flutter", "Laravel", "MySQL",],
-    description: "A comprehensive academic platform featuring a mobile app for students and lecturers to manage course registration (KRS/FRS), with approval/rejection functionality for lecturers, and a web-based admin dashboard for managing master data, course offerings, and monitoring transaction records."
+    description: "An outpatient information system integrated with other hospital information systems using a microservice architecture. It streamlines patient registration, queue management, medical record access, prescription handling, and billing processes, ensuring seamless data exchange and operational efficiency across the hospital ecosystem."
   },
   {
     title: "Restaurant Order Management System",
@@ -125,12 +125,12 @@ const educationData = [
     degree: "D3 Teknik Informatika", 
     school: "Politeknik Elektronika Negeri Surabaya", 
     year: "2023 - Present",
-    desc: "Fokus pada Software Engineering dan Mobile Development. Aktif dalam komunitas coding kampus dan asisten laboratorium.",
+    desc: "Fokus pada Software Engineering dan Mobile Development. Aktif dalam komunitas coding kampus",
     gpa: "IPK: 3.73 / 4.00" 
   },
   {
     degree: "SMA Jurusan MIPA",
-    school: "SMA Negeri 1 Puri Mjokerto",
+    school: "SMA Negeri 1 Puri Mojokerto",
     year: "2020 - 2023",
     desc: "Memiliki minat kuat dalam matematika dan logika pemrograman dasar.",
   },
@@ -294,7 +294,7 @@ export default function Home() {
                 {edu.gpa && (
                   <div className="inline-block px-3 py-1 rounded-md bg-slate-900 text-xs text-slate-400 border border-slate-800">
                     {edu.gpa}
-                  </div>
+                  </div>  
                 )}
               </div>
             </motion.div>
@@ -307,7 +307,7 @@ export default function Home() {
           <span className="text-blue-400 text-sm font-semibold uppercase tracking-wider">Portfolio</span>
           <h2 className="text-3xl md:text-4xl font-bold text-white mt-2 mb-4">Featured Projects</h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
-             Beberapa project seru yang pernah saya kerjakan.
+             some projects that I have worked on
           </p>
         </div>
 
@@ -392,7 +392,7 @@ export default function Home() {
       </section>
       
       <footer className="border-t border-slate-900/50 py-8 text-center text-slate-600 text-sm">
-        <p>© 2026 Rizal Dinata. Built with Next.js & Tailwind CSS.</p>
+        <p>© 2026 Rizal Dinata</p>
       </footer>
     </main>
   );
